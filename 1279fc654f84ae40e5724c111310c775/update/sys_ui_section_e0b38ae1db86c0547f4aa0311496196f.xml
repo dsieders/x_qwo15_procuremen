@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="e0b38ae1db86c0547f4aa0311496196f" sys_domain="global" table="x_qwo15_procurement_request" version="3" view="sp">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2019-12-30 22:30:19</sys_created_on>
+            <sys_id>74b38ae1db86c0547f4aa031149619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procurement_request" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">e0b38ae1db86c0547f4aa0311496196f</sys_ui_section>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2019-12-30 22:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>caller</element>
+            <position>1</position>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2019-12-30 22:30:19</sys_created_on>
+            <sys_id>f8b38ae1db86c0547f4aa031149619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procurement_request" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">e0b38ae1db86c0547f4aa0311496196f</sys_ui_section>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2019-12-30 22:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_qwo15_procuremen_requested_for</element>
+            <position>2</position>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2019-12-30 22:30:19</sys_created_on>
+            <sys_id>70b38ae1db86c0547f4aa031149619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procurement_request" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">e0b38ae1db86c0547f4aa0311496196f</sys_ui_section>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2019-12-30 22:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_type</element>
+            <position>3</position>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2019-12-30 22:30:19</sys_created_on>
+            <sys_id>f4b38ae1db86c0547f4aa031149619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procurement_request" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">e0b38ae1db86c0547f4aa0311496196f</sys_ui_section>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2019-12-30 22:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>4</position>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2019-12-30 22:30:19</sys_created_on>
+            <sys_id>7cb38ae1db86c0547f4aa031149619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procurement_request" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">e0b38ae1db86c0547f4aa0311496196f</sys_ui_section>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2019-12-30 22:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_qwo15_procuremen_u_po_number</element>
+            <position>5</position>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2019-12-30 22:30:19</sys_created_on>
+            <sys_id>f0b38ae1db86c0547f4aa031149619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procurement_request" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">e0b38ae1db86c0547f4aa0311496196f</sys_ui_section>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2019-12-30 22:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2019-12-30 22:30:19</sys_created_on>
+            <sys_id>78b38ae1db86c0547f4aa031149619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procurement_request" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">e0b38ae1db86c0547f4aa0311496196f</sys_ui_section>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2019-12-30 22:30:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>7</position>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2019-12-30 22:30:19</sys_created_on>
+            <sys_id>fcb38ae1db86c0547f4aa031149619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procurement_request" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">e0b38ae1db86c0547f4aa0311496196f</sys_ui_section>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2019-12-30 22:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>8</position>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2019-12-30 22:30:19</sys_created_on>
+            <sys_id>74b38ae1db86c0547f4aa031149619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procurement_request" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">e0b38ae1db86c0547f4aa0311496196f</sys_ui_section>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2019-12-30 22:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>9</position>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2019-12-30 22:30:19</sys_created_on>
+            <sys_id>f8b38ae1db86c0547f4aa031149619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procurement_request" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">e0b38ae1db86c0547f4aa0311496196f</sys_ui_section>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2019-12-30 22:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2019-12-30 22:30:19</sys_created_on>
+            <sys_id>70b38ae1db86c0547f4aa031149619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procurement_request" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">e0b38ae1db86c0547f4aa0311496196f</sys_ui_section>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2019-12-30 22:30:19</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>11</position>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2019-12-30 22:30:19</sys_created_on>
+            <sys_id>f4b38ae1db86c0547f4aa031149619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procurement_request" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">e0b38ae1db86c0547f4aa0311496196f</sys_ui_section>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2019-12-30 22:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_qwo15_procurement_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2019-12-30 22:30:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0b38ae1db86c0547f4aa0311496196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_qwo15_procurement_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+            <sys_update_name>sys_ui_section_e0b38ae1db86c0547f4aa0311496196f</sys_update_name>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2019-12-30 22:30:19</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Service Portal" name="sp">ec2daaf9d7523100a9ad1e173e24d4ea</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
