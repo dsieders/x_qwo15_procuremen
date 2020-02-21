@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition><![CDATA[answer = (current.caller != gs.getUserID() && current.x_qwo15_procuremen_requested_for != gs.getUserID());]]></advanced_condition>
+        <affected_field_on_event/>
+        <category display_value="Procurement Request" name="Procurement Request">acffb3b5db420300408a36db7c9619f6</category>
+        <collection>x_qwo15_procurement_request</collection>
+        <condition table="x_qwo15_procurement_request">commentsVALCHANGES^assignment_group!=8599b0a54f84ae40e5724c111310c7f8^EQ<item endquery="false" field="comments" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item display_table="sys_user_group" display_value="CoGC-Procurement Dispatchers" endquery="false" field="assignment_group" goto="false" newquery="false" operator="!=" or="false" value="8599b0a54f84ae40e5724c111310c7f8"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<table border="0" width="700" cellspacing="3" cellpadding="6" align="center">
+<tbody style="color: black; font-family: Arial; font-size: 10.0pt;">
+<tr>
+<td style="font-size: 14pt; font-weight: bold; width: 325px;" colspan="2">Your request has been updated</td>
+<td style="width: 336px;" colspan="2" align="right"><img style="width: 180px;" src="http://www.goldcoast.qld.gov.au/enews/brand/cogc-logo-sml.jpg" alt="City of Gold Coast Logo" width="180" height="46" align="right" /></td>
+</tr>
+<tr>
+<td style="font-size: 11pt; border-bottom: 1.5px solid black; padding-bottom: 5px; padding-top: 10px; border-top: 2px solid black; width: 678px;" colspan="4">Your request ${number} has been updated with the additional information listed below under 'Customer Communications'. If you are required to provide further details or have further information you wish to add, you may update your request by replying to this email .<br /><br />A summary of your request is listed below.</td>
+</tr>
+<tr>
+<td style="background-color: #d8d8d8; font-weight: bold; border: 1pt solid #d8d8d8; width: 156.344px;">ID</td>
+<td style="font-size: 10pt; border: 1pt solid #7f9db9; width: 150.344px;">${number}</td>
+<td style="background-color: #d8d8d8; font-weight: bold; border: 1pt solid #d8d8d8; width: 149.344px;">Priority</td>
+<td style="box-sizing: border-box; border: 1pt solid #7f9db9; width: 183px;">${priority}</td>
+</tr>
+<tr>
+<td style="background-color: #d8d8d8; font-weight: bold; border: 1pt solid #d8d8d8; width: 156.344px;">Caller</td>
+<td style="box-sizing: border-box; border: 1pt solid #7f9db9; width: 165px;">${caller}</td>
+<td style="background-color: #d8d8d8; font-weight: bold; border: 1pt solid #d8d8d8; width: 149.344px;">Assignment Group</td>
+<td style="box-sizing: border-box; border: 1pt solid #7f9db9; width: 183px;">${assignment_group}</td>
+</tr>
+<tr>
+<td style="background-color: #d8d8d8; font-weight: bold; border: 1pt solid #d8d8d8; width: 156.344px;">Opened for</td>
+<td style="box-sizing: border-box; border: 1pt solid #7f9db9; width: 165px;">${opened_for}</td>
+<td style="background-color: #d8d8d8; font-weight: bold; border: 1pt solid #d8d8d8; width: 149.344px;">Assigned to</td>
+<td style="font-size: 10pt; border: 1pt solid #7f9db9; width: 168.344px;">${assigned_to}</td>
+</tr>
+<tr>
+<td style="background-color: #d8d8d8; font-weight: bold; border: 1pt solid #d8d8d8; width: 677.344px;" colspan="4">Short Description</td>
+</tr>
+<tr>
+<td style="box-sizing: border-box; border: 1pt solid #7f9db9; width: 692px;" colspan="4">${short_description}</td>
+</tr>
+<tr>
+<td style="background-color: #d8d8d8; font-weight: bold; border: 1pt solid #d8d8d8; width: 677.344px;" colspan="4">Customer Communications</td>
+</tr>
+<tr>
+<td style="box-sizing: border-box; border: 1pt solid #7f9db9; width: 692px;" colspan="4">${mail_script:(CoGC) Populate Customer Comms in Notification}</td>
+</tr>
+<tr>
+<td style="font-size: 10pt; border-bottom: 1.5px solid black; padding-bottom: 5px; border-top: 2px solid black; text-align: center; width: 678px;" colspan="4"><span style="font-family: arial, helvetica, sans-serif;">${mail_script:sp_view_ticket}</span></td>
+</tr>
+<tr>
+<td style="font-family: Arial; color: #a5a19d; width: 157px;">Information privacy</td>
+</tr>
+<tr>
+<td style="font-size: 8pt; color: #a5a19d; width: 678px;" colspan="4">Council of the City of Gold Coast (Council) is collecting your personal information for Council to conduct its business and/or meet its statutory obligations. The information will be stored and may only be accessed by employees, Councillors and/or authorised service providers. Your personal information will not be disclosed unless you have given us permission or we are authorised or required by law.</td>
+</tr>
+</tbody>
+</table>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>(CoGC) Request for info from Support</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>x_qwo15_procuremen_requested_for</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Request ${number} has been updated</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>Peter</sys_created_by>
+        <sys_created_on>2016-06-23 04:40:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fefba8734f84a680a75546501310c7a3</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>(CoGC) Request for info from Support</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+        <sys_update_name>sysevent_email_action_fefba8734f84a680a75546501310c7a3</sys_update_name>
+        <sys_updated_by>Daniel</sys_updated_by>
+        <sys_updated_on>2020-02-02 05:38:27</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
