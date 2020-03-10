@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_qwo15_procurement_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>po_modification</dependent_value>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open PO</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2018-05-23 05:48:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f1ba24f44f921f40e3be3d501310c793</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2018-05-23 05:48:20</sys_updated_on>
+            <value>Open PO</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>wf_redirection</dependent_value>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for Absentee</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 06:33:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf624d694f84ae40e5724c111310c748</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2018-05-23 05:46:04</sys_updated_on>
+            <value>Request for Absentee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>gen_enq</dependent_value>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for information</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2018-05-23 05:47:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>098a28f44f921f40e3be3d501310c7a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2018-05-23 05:47:28</sys_updated_on>
+            <value>Request for information</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>po_modification</dependent_value>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Modify PO</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2018-05-23 05:48:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75ba24f44f921f40e3be3d501310c795</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2018-05-23 05:48:20</sys_updated_on>
+            <value>Modify PO</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>gen_enq</dependent_value>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New vendor request</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2018-05-23 05:47:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>098a2cf44f921f40e3be3d501310c7a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2018-05-23 05:47:28</sys_updated_on>
+            <value>New vendor request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>wf_redirection</dependent_value>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for information</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 06:32:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0324d694f84ae40e5724c111310c7c2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2018-05-23 05:46:03</sys_updated_on>
+            <value>Request for information</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>po_modification</dependent_value>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Close PO</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2018-05-23 05:48:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f5ba24f44f921f40e3be3d501310c797</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2018-05-23 05:48:20</sys_updated_on>
+            <value>Close PO</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>wf_redirection</dependent_value>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for workflow substitution (Invoice)</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 06:34:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>84a209694f84ae40e5724c111310c7dc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2018-05-23 05:46:03</sys_updated_on>
+            <value>Request for workflow substitution (Invoice)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>gen_enq</dependent_value>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Single/Sole Source Form</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>Gagandeep</sys_created_by>
+            <sys_created_on>2019-08-23 01:52:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a253997bdb933340d5e864d314961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Gagandeep</sys_updated_by>
+            <sys_updated_on>2019-08-23 01:52:45</sys_updated_on>
+            <value>Single/Sole Source Form</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>po_modification</dependent_value>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add Line(s)</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2018-05-23 05:48:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79ba24f44f921f40e3be3d501310c799</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2018-05-23 05:48:20</sys_updated_on>
+            <value>Add Line(s)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>gen_enq</dependent_value>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2018-05-23 05:47:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>898a2cf44f921f40e3be3d501310c7a3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Gagandeep</sys_updated_by>
+            <sys_updated_on>2019-08-23 01:52:45</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>wf_redirection</dependent_value>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request to change approver</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 06:35:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cac285694f84ae40e5724c111310c774</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2018-05-23 05:46:03</sys_updated_on>
+            <value>Request to change approver</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>po_modification</dependent_value>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change Requestor</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>4</sequence>
+            <sys_created_by>DIHORI</sys_created_by>
+            <sys_created_on>2020-03-09 08:35:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3bd3abf7db170410cf6a6f7605961980</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>DIHORI</sys_updated_by>
+            <sys_updated_on>2020-03-09 08:35:19</sys_updated_on>
+            <value>Change Requestor</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_qwo15_procurement_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 06:32:35</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2d3f3724dbabb380f68191f38a961926</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+            <sys_update_name>sys_choice_x_qwo15_procurement_request_category</sys_update_name>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 06:34:09</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
