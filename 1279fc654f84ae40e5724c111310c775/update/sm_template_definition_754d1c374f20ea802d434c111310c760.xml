@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sm_template_definition">
+    <sm_template_definition action="INSERT_OR_UPDATE">
+        <associated_variable/>
+        <field>assignment_group</field>
+        <mandatory>false</mandatory>
+        <show>false</show>
+        <sys_class_name>sm_template_definition</sys_class_name>
+        <sys_created_by>Mike</sys_created_by>
+        <sys_created_on>2016-07-18 00:08:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>754d1c374f20ea802d434c111310c760</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+        <sys_update_name>sm_template_definition_754d1c374f20ea802d434c111310c760</sys_update_name>
+        <sys_updated_by>Mike</sys_updated_by>
+        <sys_updated_on>2016-07-18 00:08:04</sys_updated_on>
+        <table>x_qwo15_procurement_request</table>
+        <template display_value="Source to Contract">6bb5a43f4f44a680a75546501310c747</template>
+        <value>b6a6e5e24f64e6802d434c111310c7d0</value>
+    </sm_template_definition>
+</record_update>

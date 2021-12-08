@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>6bb5a43f4f44a680a75546501310c747</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_qwo15_procurement_request_template">
+    <x_qwo15_procurement_request_template action="INSERT_OR_UPDATE">
+        <acquisition_method/>
+        <asset_tracking_strategy>leave_to_category</asset_tracking_strategy>
+        <assignment_group/>
+        <availability>on_desktop</availability>
+        <barcode/>
+        <billable>false</billable>
+        <bundle>false</bundle>
+        <category display_value="Default Category">34f9f4a54f84ae40e5724c111310c77b</category>
+        <certified>false</certified>
+        <checklist_template/>
+        <cmdb_ci_class/>
+        <cmdb_model_category>7bc974a54f84ae40e5724c111310c70b</cmdb_model_category>
+        <comments/>
+        <cost>0</cost>
+        <depreciation/>
+        <description/>
+        <display_name>Source to Contract</display_name>
+        <flow_rate/>
+        <full_name/>
+        <is_migrated>true</is_migrated>
+        <main_component/>
+        <manufacturer/>
+        <model_number/>
+        <name>Source to Contract</name>
+        <order_description/>
+        <order_skills/>
+        <owner/>
+        <picture/>
+        <power_consumption/>
+        <priority>4</priority>
+        <product_catalog_item display_value="Source to Contract">ebb5a43f4f44a680a75546501310c747</product_catalog_item>
+        <qualification_group/>
+        <rack_units>1</rack_units>
+        <short_description>Source to Contract</short_description>
+        <sla/>
+        <sound_power/>
+        <status/>
+        <sys_class_name>x_qwo15_procurement_request_template</sys_class_name>
+        <sys_created_by>Peter</sys_created_by>
+        <sys_created_on>2016-06-23 04:13:38</sys_created_on>
+        <sys_id>6bb5a43f4f44a680a75546501310c747</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Peter</sys_updated_by>
+        <sys_updated_on>2016-06-23 04:13:38</sys_updated_on>
+        <type>Generic</type>
+        <u_contained>false</u_contained>
+        <u_containment_conditions/>
+        <u_device_size/>
+        <u_end_of_extended_support/>
+        <u_end_of_mainstream_support/>
+        <u_end_of_sale/>
+        <u_enterprise_arch_lifecycle_status/>
+        <u_gea_domain/>
+        <u_general_availability/>
+        <u_it_system/>
+        <u_legacy_id/>
+        <u_subscription_term/>
+        <u_support_group/>
+        <weight/>
+        <workflow/>
+    </x_qwo15_procurement_request_template>
+    <fx_price action="delete_multiple" query="id=6bb5a43f4f44a680a75546501310c747"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount/>
+        <currency display_value="USD">USD</currency>
+        <field>cost</field>
+        <id>6bb5a43f4f44a680a75546501310c747</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>Peter</sys_created_by>
+        <sys_created_on>2016-06-23 04:13:40</sys_created_on>
+        <sys_id>33b5a43f4f44a680a75546501310c74a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Peter</sys_updated_by>
+        <sys_updated_on>2016-06-23 04:13:40</sys_updated_on>
+        <table>x_qwo15_procurement_request_template</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_translated_text action="delete_multiple" query="documentkey=6bb5a43f4f44a680a75546501310c747"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>Peter</sys_created_by>
+        <sys_created_on>2016-06-23 04:13:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fbb5a4bf4f44a680a75546501310c7fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Source to Contract</sys_name>
+        <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+        <sys_update_name>sys_metadata_link_fbb5a4bf4f44a680a75546501310c7fc</sys_update_name>
+        <sys_updated_by>Peter</sys_updated_by>
+        <sys_updated_on>2016-06-23 04:13:40</sys_updated_on>
+        <tablename>x_qwo15_procurement_request_template</tablename>
+    </sys_metadata_link>
+</record_update>

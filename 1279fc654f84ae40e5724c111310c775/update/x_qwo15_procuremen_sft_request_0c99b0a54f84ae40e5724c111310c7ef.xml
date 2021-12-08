@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_qwo15_procuremen_sft_request">
+    <x_qwo15_procuremen_sft_request action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <automatic_condition table="x_qwo15_procurement_request">work_startISNOTEMPTY^EQ<item endquery="false" field="work_start" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </automatic_condition>
+        <automatic_roles/>
+        <automatic_script/>
+        <automatic_string/>
+        <business_rule display_value="Start Work">4c99b0a54f84ae40e5724c111310c7ef</business_rule>
+        <change_client_script/>
+        <client_script/>
+        <comment>Procurement Request State flow</comment>
+        <derived_from display_value="Start Work">c09353c147232100158b949b6c9a7148</derived_from>
+        <end_text>18</end_text>
+        <ending_state/>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition table="x_qwo15_procurement_request">assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^work_startISEMPTY^state=16^sla_suspended=false^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="work_start" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item display_value="Assigned" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="16"/>
+            <item endquery="false" field="sla_suspended" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </manual_condition>
+        <manual_roles/>
+        <manual_script><![CDATA[action.setRedirectURL(current);
+current.work_start = new GlideDateTime();]]></manual_script>
+        <manual_string>new sn_sm.SMConfiguration().isEnabled(current, "request_driven", false)</manual_string>
+        <name>Start Work</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010170</number>
+        <override/>
+        <read_only_fields/>
+        <roles/>
+        <start_text>16</start_text>
+        <starting_state/>
+        <sys_class_name>x_qwo15_procuremen_sft_request</sys_class_name>
+        <sys_created_by>Peter</sys_created_by>
+        <sys_created_on>2016-06-16 05:53:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0c99b0a54f84ae40e5724c111310c7ef</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Start Work</sys_name>
+        <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+        <sys_update_name>x_qwo15_procuremen_sft_request_0c99b0a54f84ae40e5724c111310c7ef</sys_update_name>
+        <sys_updated_by>Peter</sys_updated_by>
+        <sys_updated_on>2016-06-20 05:39:39</sys_updated_on>
+        <table>x_qwo15_procurement_request</table>
+        <translated_ending_state/>
+        <translated_starting_state/>
+        <ui_action display_value="Start Work">8899b0a54f84ae40e5724c111310c7f0</ui_action>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </x_qwo15_procuremen_sft_request>
+</record_update>

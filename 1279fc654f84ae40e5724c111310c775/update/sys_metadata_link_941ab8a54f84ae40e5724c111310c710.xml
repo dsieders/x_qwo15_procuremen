@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>520a78a54f84ae40e5724c111310c760</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sm_config_module">
+    <sm_config_module action="INSERT_OR_UPDATE">
+        <app_name display_value="procurement">bd0a78a54f84ae40e5724c111310c755</app_name>
+        <aspect>geolocation_maps</aspect>
+        <associated_mobile_module display_value="My Map">1e0a78a54f84ae40e5724c111310c75f</associated_mobile_module>
+        <associated_module/>
+        <on>true</on>
+        <sys_created_by>Peter</sys_created_by>
+        <sys_created_on>2016-06-16 05:55:59</sys_created_on>
+        <sys_id>520a78a54f84ae40e5724c111310c760</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Peter</sys_updated_by>
+        <sys_updated_on>2016-06-16 05:55:59</sys_updated_on>
+    </sm_config_module>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>Peter</sys_created_by>
+        <sys_created_on>2016-06-16 05:56:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>941ab8a54f84ae40e5724c111310c710</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>procurement</sys_name>
+        <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+        <sys_update_name>sys_metadata_link_941ab8a54f84ae40e5724c111310c710</sys_update_name>
+        <sys_updated_by>Peter</sys_updated_by>
+        <sys_updated_on>2016-06-16 05:56:08</sys_updated_on>
+        <tablename>sm_config_module</tablename>
+    </sys_metadata_link>
+</record_update>

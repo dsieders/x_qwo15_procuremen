@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Peter</sys_created_by>
+        <sys_created_on>2016-06-16 05:55:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d7e9f4a54f84ae40e5724c111310c768</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_model_part_requirement.x_qwo15_procuremen_read</sys_name>
+        <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+        <sys_security_acl display_value="cmdb_model_part_requirement">525a3303df2321006d907a0d3df26306</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d7e9f4a54f84ae40e5724c111310c768</sys_update_name>
+        <sys_updated_by>Peter</sys_updated_by>
+        <sys_updated_on>2016-06-16 05:55:31</sys_updated_on>
+        <sys_user_role display_value="x_qwo15_procuremen_read" name="x_qwo15_procuremen_read">4889b0a54f84ae40e5724c111310c751</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

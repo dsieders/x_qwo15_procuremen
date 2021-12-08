@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="f7f938a54f84ae40e5724c111310c75f" sys_domain="global" table="x_qwo15_procuremen_sft_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:49</sys_created_on>
+            <sys_id>bbf938a54f84ae40e5724c111310c75f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procuremen_sft_request" sys_domain="global" view="Default view">f7f938a54f84ae40e5724c111310c75f</sys_ui_section>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 05:55:49</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:49</sys_created_on>
+            <sys_id>fbf938a54f84ae40e5724c111310c75f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procuremen_sft_request" sys_domain="global" view="Default view">f7f938a54f84ae40e5724c111310c75f</sys_ui_section>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 05:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>table</element>
+            <position>2</position>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:49</sys_created_on>
+            <sys_id>3ff938a54f84ae40e5724c111310c75f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procuremen_sft_request" sys_domain="global" view="Default view">f7f938a54f84ae40e5724c111310c75f</sys_ui_section>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 05:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>starting_state</element>
+            <position>3</position>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:49</sys_created_on>
+            <sys_id>7ff938a54f84ae40e5724c111310c75f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procuremen_sft_request" sys_domain="global" view="Default view">f7f938a54f84ae40e5724c111310c75f</sys_ui_section>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 05:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ending_state</element>
+            <position>4</position>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:49</sys_created_on>
+            <sys_id>bff938a54f84ae40e5724c111310c75f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procuremen_sft_request" sys_domain="global" view="Default view">f7f938a54f84ae40e5724c111310c75f</sys_ui_section>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 05:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>client_script</element>
+            <position>5</position>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:49</sys_created_on>
+            <sys_id>fff938a54f84ae40e5724c111310c75f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procuremen_sft_request" sys_domain="global" view="Default view">f7f938a54f84ae40e5724c111310c75f</sys_ui_section>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 05:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>event</element>
+            <position>6</position>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:49</sys_created_on>
+            <sys_id>33f938a54f84ae40e5724c111310c760</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procuremen_sft_request" sys_domain="global" view="Default view">f7f938a54f84ae40e5724c111310c75f</sys_ui_section>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 05:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:49</sys_created_on>
+            <sys_id>73f938a54f84ae40e5724c111310c760</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procuremen_sft_request" sys_domain="global" view="Default view">f7f938a54f84ae40e5724c111310c75f</sys_ui_section>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 05:55:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>8</position>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:49</sys_created_on>
+            <sys_id>b3f938a54f84ae40e5724c111310c760</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procuremen_sft_request" sys_domain="global" view="Default view">f7f938a54f84ae40e5724c111310c75f</sys_ui_section>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 05:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>roles</element>
+            <position>9</position>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:49</sys_created_on>
+            <sys_id>f3f938a54f84ae40e5724c111310c760</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procuremen_sft_request" sys_domain="global" view="Default view">f7f938a54f84ae40e5724c111310c75f</sys_ui_section>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 05:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>10</position>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:49</sys_created_on>
+            <sys_id>37f938a54f84ae40e5724c111310c760</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procuremen_sft_request" sys_domain="global" view="Default view">f7f938a54f84ae40e5724c111310c75f</sys_ui_section>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 05:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_class_name</element>
+            <position>11</position>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:49</sys_created_on>
+            <sys_id>77f938a54f84ae40e5724c111310c760</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procuremen_sft_request" sys_domain="global" view="Default view">f7f938a54f84ae40e5724c111310c75f</sys_ui_section>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 05:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>override</element>
+            <position>12</position>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:49</sys_created_on>
+            <sys_id>b7f938a54f84ae40e5724c111310c760</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procuremen_sft_request" sys_domain="global" view="Default view">f7f938a54f84ae40e5724c111310c75f</sys_ui_section>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 05:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>13</position>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:49</sys_created_on>
+            <sys_id>f7f938a54f84ae40e5724c111310c760</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procuremen_sft_request" sys_domain="global" view="Default view">f7f938a54f84ae40e5724c111310c75f</sys_ui_section>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 05:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>14</position>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:49</sys_created_on>
+            <sys_id>3bf938a54f84ae40e5724c111310c760</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procuremen_sft_request" sys_domain="global" view="Default view">f7f938a54f84ae40e5724c111310c75f</sys_ui_section>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 05:55:49</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comment</element>
+            <position>15</position>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:49</sys_created_on>
+            <sys_id>7bf938a54f84ae40e5724c111310c760</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procuremen_sft_request" sys_domain="global" view="Default view">f7f938a54f84ae40e5724c111310c75f</sys_ui_section>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 05:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_qwo15_procuremen_sft_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:49</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f7f938a54f84ae40e5724c111310c75f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_qwo15_procuremen_sft_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+            <sys_update_name>sys_ui_section_f7f938a54f84ae40e5724c111310c75f</sys_update_name>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 05:55:49</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

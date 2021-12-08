@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Service Management Core" source="com.snc.service_management.core">bf8e2ff8ecbb02000f72a0dc74732674</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>BradM</sys_created_by>
+        <sys_created_on>2016-07-14 07:50:24</sys_created_on>
+        <sys_id>d3b0a92e4f24e6802d434c111310c749</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+        <sys_updated_by>BradM</sys_updated_by>
+        <sys_updated_on>2016-07-14 07:50:24</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

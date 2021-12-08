@@ -55,7 +55,7 @@
             <sys_domain_path>/</sys_domain_path>
             <sys_id>acb38ae1db86c0547f4aa03114961970</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Customer Communications</sys_name>
+            <sys_name>x_qwo15_procurement_request</sys_name>
             <sys_overrides/>
             <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
             <sys_policy/>

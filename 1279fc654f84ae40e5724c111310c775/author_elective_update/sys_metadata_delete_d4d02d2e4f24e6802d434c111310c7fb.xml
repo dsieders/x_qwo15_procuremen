@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="state" table="x_qwo15_procurement_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Procurement Request initiator is not done describing the work</hint>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:53:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5779b0a54f84ae40e5724c111310c744</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-20 06:16:07</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Procurement Request is fully qualified but work has not started yet</hint>
+            <inactive>true</inactive>
+            <label>Ready</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:53:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f79b0a54f84ae40e5724c111310c746</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-23 23:48:14</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Procurement Request has been described by initiator and can be processed by approver</hint>
+            <inactive>true</inactive>
+            <label>Awaiting Approval</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:53:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a379b0a54f84ae40e5724c111310c745</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-23 23:48:14</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accepted</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-23 23:46:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d1234cc4f146280e5724c111310c749</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-23 23:48:14</sys_updated_on>
+            <value>19</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Task is assigned, pending staff acceptance</hint>
+            <inactive>true</inactive>
+            <label>Assigned</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:53:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a779b0a54f84ae40e5724c111310c747</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-23 23:48:14</sys_updated_on>
+            <value>16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Work has started</hint>
+            <inactive>false</inactive>
+            <label>Work In Progress</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:53:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef79b0a54f84ae40e5724c111310c747</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-23 23:48:14</sys_updated_on>
+            <value>18</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Waiting Customer</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-23 23:46:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d83234cc4f146280e5724c111310c7f3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-23 23:48:14</sys_updated_on>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Work could not be completed as specified</hint>
+            <inactive>true</inactive>
+            <label>Closed Incomplete</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:53:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7379b0a54f84ae40e5724c111310c749</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-23 23:48:14</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Procurement Request has been approved</hint>
+            <inactive>true</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>4</sequence>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:53:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb79b0a54f84ae40e5724c111310c745</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-23 23:48:14</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Waiting on External Party</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>4</sequence>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-23 23:47:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40427c8c4f146280e5724c111310c724</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-23 23:48:14</sys_updated_on>
+            <value>21</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>22</hint>
+            <inactive>false</inactive>
+            <label>Waiting on Internal Party</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>5</sequence>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-23 23:47:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>74527c8c4f146280e5724c111310c74b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-28 04:26:05</sys_updated_on>
+            <value>22</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Work has been completed to specification</hint>
+            <inactive>false</inactive>
+            <label>Closed Complete</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>6</sequence>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:53:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b79b0a54f84ae40e5724c111310c748</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-23 23:48:14</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Procurement Request has been cancelled</hint>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>7</sequence>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:53:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb79b0a54f84ae40e5724c111310c749</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-23 23:48:14</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>Procurement Request has been fully described by initiator and can be processed by qualifier</hint>
+            <inactive>true</inactive>
+            <label>Awaiting Qualification</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>8</sequence>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:53:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2779b0a54f84ae40e5724c111310c746</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-23 23:48:14</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+        <sys_choice_set action="DELETE">
+            <element>state</element>
+            <name>x_qwo15_procurement_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:53:36</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>6f79b0a54f84ae40e5724c111310c744</sys_id>
+            <sys_mod_count>40</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
+            <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+            <sys_update_name>sys_choice_x_qwo15_procurement_request_state</sys_update_name>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-28 04:24:34</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Procurement">1279fc654f84ae40e5724c111310c775</application>
+        <file_path/>
+        <instance_id>d0b912ae6f935a001a75a9cc5d3ee4d3</instance_id>
+        <instance_name>cogc</instance_name>
+        <name>sys_choice_x_qwo15_procurement_request_state</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="state" table="x_qwo15_procurement_request" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint>Procurement Request initiator is not done describing the work</hint><inactive>false</inactive><label>Draft</label><language>en</language><name>x_qwo15_procurement_request</name><sequence>0</sequence><sys_created_by>Peter</sys_created_by><sys_created_on>2016-06-16 05:53:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5779b0a54f84ae40e5724c111310c744</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>Peter</sys_updated_by><sys_updated_on>2016-06-20 06:16:07</sys_updated_on><value>1</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint>Procurement Request is fully qualified but work has not started yet</hint><inactive>true</inactive><label>Ready</label><language>en</language><name>x_qwo15_procurement_request</name><sequence>0</sequence><sys_created_by>Peter</sys_created_by><sys_created_on>2016-06-16 05:53:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6f79b0a54f84ae40e5724c111310c746</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>Peter</sys_updated_by><sys_updated_on>2016-06-23 23:48:14</sys_updated_on><value>10</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint>Procurement Request has been described by initiator and can be processed by approver</hint><inactive>true</inactive><label>Awaiting Approval</label><language>en</language><name>x_qwo15_procurement_request</name><sequence>1</sequence><sys_created_by>Peter</sys_created_by><sys_created_on>2016-06-16 05:53:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a379b0a54f84ae40e5724c111310c745</sys_id><sys_mod_count>4</sys_mod_count><sys_updated_by>Peter</sys_updated_by><sys_updated_on>2016-06-23 23:48:14</sys_updated_on><value>11</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint/><inactive>false</inactive><label>Accepted</label><language>en</language><name>x_qwo15_procurement_request</name><sequence>1</sequence><sys_created_by>Peter</sys_created_by><sys_created_on>2016-06-23 23:46:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0d1234cc4f146280e5724c111310c749</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>Peter</sys_updated_by><sys_updated_on>2016-06-23 23:48:14</sys_updated_on><value>19</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint>Task is assigned, pending staff acceptance</hint><inactive>true</inactive><label>Assigned</label><language>en</language><name>x_qwo15_procurement_request</name><sequence>2</sequence><sys_created_by>Peter</sys_created_by><sys_created_on>2016-06-16 05:53:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a779b0a54f84ae40e5724c111310c747</sys_id><sys_mod_count>4</sys_mod_count><sys_updated_by>Peter</sys_updated_by><sys_updated_on>2016-06-23 23:48:14</sys_updated_on><value>16</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint>Work has started</hint><inactive>false</inactive><label>Work In Progress</label><language>en</language><name>x_qwo15_procurement_request</name><sequence>2</sequence><sys_created_by>Peter</sys_created_by><sys_created_on>2016-06-16 05:53:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ef79b0a54f84ae40e5724c111310c747</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>Peter</sys_updated_by><sys_updated_on>2016-06-23 23:48:14</sys_updated_on><value>18</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint/><inactive>false</inactive><label>Waiting Customer</label><language>en</language><name>x_qwo15_procurement_request</name><sequence>3</sequence><sys_created_by>Peter</sys_created_by><sys_created_on>2016-06-23 23:46:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d83234cc4f146280e5724c111310c7f3</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>Peter</sys_updated_by><sys_updated_on>2016-06-23 23:48:14</sys_updated_on><value>20</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint>Work could not be completed as specified</hint><inactive>true</inactive><label>Closed Incomplete</label><language>en</language><name>x_qwo15_procurement_request</name><sequence>3</sequence><sys_created_by>Peter</sys_created_by><sys_created_on>2016-06-16 05:53:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7379b0a54f84ae40e5724c111310c749</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>Peter</sys_updated_by><sys_updated_on>2016-06-23 23:48:14</sys_updated_on><value>4</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint>Procurement Request has been approved</hint><inactive>true</inactive><label>Approved</label><language>en</language><name>x_qwo15_procurement_request</name><sequence>4</sequence><sys_created_by>Peter</sys_created_by><sys_created_on>2016-06-16 05:53:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>eb79b0a54f84ae40e5724c111310c745</sys_id><sys_mod_count>4</sys_mod_count><sys_updated_by>Peter</sys_updated_by><sys_updated_on>2016-06-23 23:48:14</sys_updated_on><value>13</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint/><inactive>false</inactive><label>Waiting on External Party</label><language>en</language><name>x_qwo15_procurement_request</name><sequence>4</sequence><sys_created_by>Peter</sys_created_by><sys_created_on>2016-06-23 23:47:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>40427c8c4f146280e5724c111310c724</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>Peter</sys_updated_by><sys_updated_on>2016-06-23 23:48:14</sys_updated_on><value>21</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint>22</hint><inactive>false</inactive><label>Waiting on Internal Party</label><language>en</language><name>x_qwo15_procurement_request</name><sequence>5</sequence><sys_created_by>Peter</sys_created_by><sys_created_on>2016-06-23 23:47:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>74527c8c4f146280e5724c111310c74b</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>Peter</sys_updated_by><sys_updated_on>2016-06-28 04:26:05</sys_updated_on><value>22</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint>Work has been completed to specification</hint><inactive>false</inactive><label>Closed Complete</label><language>en</language><name>x_qwo15_procurement_request</name><sequence>6</sequence><sys_created_by>Peter</sys_created_by><sys_created_on>2016-06-16 05:53:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3b79b0a54f84ae40e5724c111310c748</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>Peter</sys_updated_by><sys_updated_on>2016-06-23 23:48:14</sys_updated_on><value>3</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint>Procurement Request has been cancelled</hint><inactive>false</inactive><label>Cancelled</label><language>en</language><name>x_qwo15_procurement_request</name><sequence>7</sequence><sys_created_by>Peter</sys_created_by><sys_created_on>2016-06-16 05:53:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bb79b0a54f84ae40e5724c111310c749</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>Peter</sys_updated_by><sys_updated_on>2016-06-23 23:48:14</sys_updated_on><value>7</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint>Procurement Request has been fully described by initiator and can be processed by qualifier</hint><inactive>true</inactive><label>Awaiting Qualification</label><language>en</language><name>x_qwo15_procurement_request</name><sequence>8</sequence><sys_created_by>Peter</sys_created_by><sys_created_on>2016-06-16 05:53:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2779b0a54f84ae40e5724c111310c746</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>Peter</sys_updated_by><sys_updated_on>2016-06-23 23:48:14</sys_updated_on><value>15</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>state</element><name>x_qwo15_procurement_request</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>Peter</sys_created_by><sys_created_on>2016-06-16 05:53:36</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>6f79b0a54f84ae40e5724c111310c744</sys_id><sys_mod_count>40</sys_mod_count><sys_name>state</sys_name><sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package><sys_policy/><sys_replace_on_upgrade>true</sys_replace_on_upgrade><sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope><sys_update_name>sys_choice_x_qwo15_procurement_request_state</sys_update_name><sys_updated_by>Peter</sys_updated_by><sys_updated_on>2016-06-28 04:24:34</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>804067387</payload_hash>
+        <record_name>Procurement Request.state</record_name>
+        <reverted_from/>
+        <source>ada0edea4f24e6802d434c111310c7e4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>BradM</sys_created_by>
+        <sys_created_on>2016-07-14 07:50:34</sys_created_on>
+        <sys_id>71c02d2e4f24e6802d434c111310c705</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>155e862c1100000000</sys_recorded_at>
+        <sys_updated_by>BradM</sys_updated_by>
+        <sys_updated_on>2016-07-14 07:50:34</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid/>
+        <update_guid_history/>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Peter</sys_created_by>
+        <sys_created_on>2020-02-21 08:21:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>d4d02d2e4f24e6802d434c111310c7fb</sys_id>
+        <sys_metadata>d4d02d2e4f24e6802d434c111310c7fb</sys_metadata>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+        <sys_scope_delete display_value="">ca2075846bdc43ac9b2ed05c7ab10e39</sys_scope_delete>
+        <sys_update_name>sys_metadata_delete_d4d02d2e4f24e6802d434c111310c7fb</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_qwo15_procurement_request_state">71c02d2e4f24e6802d434c111310c705</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-02-26 00:00:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

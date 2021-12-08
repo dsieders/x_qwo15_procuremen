@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_qwo15_procuremen_estimated_work_time" table="x_qwo15_procurement_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_qwo15_procuremen_estimated_work_time</element>
+            <name>x_qwo15_procurement_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 06:24:42</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>02c02d2e4f24e6802d434c111310c706</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>x_qwo15_procuremen_estimated_work_time</sys_name>
+            <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+            <sys_update_name>sys_choice_x_qwo15_procurement_request_x_qwo15_procuremen_estimated_work_time</sys_update_name>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 06:26:20</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_qwo15_procuremen_estimated_work_time</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>A: 0 – 10 Minutes</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 06:24:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df6081694f84ae40e5724c111310c772</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 06:24:42</sys_updated_on>
+            <value>A: 0 – 10 Minutes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_qwo15_procuremen_estimated_work_time</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B: 11 – 30 Minutes</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 06:25:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>739081694f84ae40e5724c111310c7cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 06:25:07</sys_updated_on>
+            <value>B: 11 – 30 Minutes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_qwo15_procuremen_estimated_work_time</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>C: 31 – 120 Minutes</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 06:25:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6c081694f84ae40e5724c111310c776</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 06:25:37</sys_updated_on>
+            <value>C: 31 – 120 Minutes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_qwo15_procuremen_estimated_work_time</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>D: 2 – 8 Hours</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 06:25:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7d045294f84ae40e5724c111310c7f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 06:25:56</sys_updated_on>
+            <value>D: 2 – 8 Hours</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_qwo15_procuremen_estimated_work_time</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>E: 8 – 40 Hours</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 06:26:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18f081694f84ae40e5724c111310c779</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 06:26:20</sys_updated_on>
+            <value>E: 8 – 40 Hours</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_qwo15_procuremen_estimated_work_time</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>F: 40 Hours or More</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 06:26:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e01c1694f84ae40e5724c111310c763</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 06:26:45</sys_updated_on>
+            <value>F: 40 Hours or More</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

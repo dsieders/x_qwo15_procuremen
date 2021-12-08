@@ -3,7 +3,7 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
-        <condition table="x_qwo15_procurement_request">state!=7^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="7"/>
+        <condition table="x_qwo15_procurement_request">state!=7^EQ<item display_value="Cancelled" endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="7"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description>All Procurement basic users can edit a Procurement Request. Other ACLs limit updates to particular fields.</description>

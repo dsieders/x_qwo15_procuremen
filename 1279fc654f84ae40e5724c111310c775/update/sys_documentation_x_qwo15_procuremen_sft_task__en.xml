@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Procurement Task Flow" language="en" table="x_qwo15_procuremen_sft_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Procurement Task Flow</label>
+            <language>en</language>
+            <name>x_qwo15_procuremen_sft_task</name>
+            <plural>Procurement Task Flows</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>BradM</sys_created_by>
+            <sys_created_on>2016-07-14 07:50:28</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>68c0e92e4f24e6802d434c111310c737</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Procurement Task Flow</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+            <sys_update_name>sys_documentation_x_qwo15_procuremen_sft_task__en</sys_update_name>
+            <sys_updated_by>BradM</sys_updated_by>
+            <sys_updated_on>2016-07-14 07:50:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

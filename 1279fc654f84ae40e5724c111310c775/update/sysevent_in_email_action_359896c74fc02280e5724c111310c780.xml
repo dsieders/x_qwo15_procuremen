@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>false</active>
+        <assignment_operator/>
+        <condition_script>(new sn_sm.SMConfiguration()).isEnabled("procurement", "inbound_email", false)</condition_script>
+        <description>All update emails will be added in the work notes</description>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>(CoGC) Update Procurement Reports Req</name>
+        <order>70</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[if (current.getTableName() == "x_qwo15_procurement_request") {
+	var bodyText = email.body_text;
+	if (!bodyText)
+		bodyText = email.body_html;
+	current.comments = "Reply from: " + email.origemail + "\n\n" + email.subject + "\n\n" + bodyText;	
+	current.update();
+}]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>Peter</sys_created_by>
+        <sys_created_on>2016-06-21 04:40:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>359896c74fc02280e5724c111310c780</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>(CoGC) Update Procurement Reports Req</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+        <sys_update_name>sysevent_in_email_action_359896c74fc02280e5724c111310c780</sys_update_name>
+        <sys_updated_by>Peter</sys_updated_by>
+        <sys_updated_on>2016-06-28 05:37:59</sys_updated_on>
+        <table>x_qwo15_procurement_request</table>
+        <template/>
+        <type>reply</type>
+    </sysevent_in_email_action>
+</record_update>

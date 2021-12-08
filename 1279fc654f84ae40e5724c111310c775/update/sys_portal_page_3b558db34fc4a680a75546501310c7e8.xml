@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2021-12-08 03:59:17">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order>200</order>
+        <read_roles>x_qwo15_procuremen_agent</read_roles>
+        <roles>admin</roles>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>Peter</sys_created_by>
+        <sys_created_on>2016-06-23 06:32:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3b558db34fc4a680a75546501310c7e8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Procurement Homepage</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+        <sys_update_name>sys_portal_page_3b558db34fc4a680a75546501310c7e8</sys_update_name>
+        <sys_updated_by>BradM</sys_updated_by>
+        <sys_updated_on>2018-02-15 22:32:52</sys_updated_on>
+        <title>Procurement Homepage</title>
+        <user/>
+        <view>Procurement</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone999</dropzone>
+                <offset>0</offset>
+                <page display_value="Procurement Homepage">3b558db34fc4a680a75546501310c7e8</page>
+                <summary/>
+                <sys_created_by>Peter</sys_created_by>
+                <sys_created_on>2016-06-23 06:38:16</sys_created_on>
+                <sys_id>4ed685374fc4a680a75546501310c7df</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>Peter</sys_updated_by>
+                <sys_updated_on>2016-06-23 06:38:16</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 23-06-2016 16:38:16">4ed685374fc4a680a75546501310c7df</portal_section>
+                        <sys_created_by>Peter</sys_created_by>
+                        <sys_created_on>2016-06-23 06:38:16</sys_created_on>
+                        <sys_id>02d685374fc4a680a75546501310c7e0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Peter</sys_updated_by>
+                        <sys_updated_on>2016-06-23 06:38:16</sys_updated_on>
+                        <value>dae4c9b34fc4a680a75546501310c715</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 23-06-2016 16:38:16">4ed685374fc4a680a75546501310c7df</portal_section>
+                        <sys_created_by>Peter</sys_created_by>
+                        <sys_created_on>2016-06-23 06:38:16</sys_created_on>
+                        <sys_id>06d685374fc4a680a75546501310c7e0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Peter</sys_updated_by>
+                        <sys_updated_on>2016-06-23 06:38:16</sys_updated_on>
+                        <value>3b558db34fc4a680a75546501310c7e8</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 23-06-2016 16:38:16">4ed685374fc4a680a75546501310c7df</portal_section>
+                        <sys_created_by>Peter</sys_created_by>
+                        <sys_created_on>2016-06-23 06:38:16</sys_created_on>
+                        <sys_id>82d685374fc4a680a75546501310c7e0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Peter</sys_updated_by>
+                        <sys_updated_on>2016-06-23 06:38:16</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 23-06-2016 16:38:16">4ed685374fc4a680a75546501310c7df</portal_section>
+                        <sys_created_by>Peter</sys_created_by>
+                        <sys_created_on>2016-06-23 06:38:16</sys_created_on>
+                        <sys_id>8ed685374fc4a680a75546501310c7df</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Peter</sys_updated_by>
+                        <sys_updated_on>2016-06-23 06:38:16</sys_updated_on>
+                        <value>(CoGC) Procurement Work assigned to my workgroup/s</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="Procurement Homepage">3b558db34fc4a680a75546501310c7e8</page>
+                <summary/>
+                <sys_created_by>Peter</sys_created_by>
+                <sys_created_on>2016-06-23 06:38:16</sys_created_on>
+                <sys_id>c2d685374fc4a680a75546501310c7df</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>Peter</sys_updated_by>
+                <sys_updated_on>2016-06-23 06:38:16</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 23-06-2016 16:38:16">c2d685374fc4a680a75546501310c7df</portal_section>
+                        <sys_created_by>Peter</sys_created_by>
+                        <sys_created_on>2016-06-23 06:38:16</sys_created_on>
+                        <sys_id>06d685374fc4a680a75546501310c7df</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Peter</sys_updated_by>
+                        <sys_updated_on>2016-06-23 06:38:16</sys_updated_on>
+                        <value>(CoGC) Procurement Work assigned to me</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 23-06-2016 16:38:16">c2d685374fc4a680a75546501310c7df</portal_section>
+                        <sys_created_by>Peter</sys_created_by>
+                        <sys_created_on>2016-06-23 06:38:16</sys_created_on>
+                        <sys_id>0ad685374fc4a680a75546501310c7df</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Peter</sys_updated_by>
+                        <sys_updated_on>2016-06-23 06:38:16</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 23-06-2016 16:38:16">c2d685374fc4a680a75546501310c7df</portal_section>
+                        <sys_created_by>Peter</sys_created_by>
+                        <sys_created_on>2016-06-23 06:38:16</sys_created_on>
+                        <sys_id>86d685374fc4a680a75546501310c7df</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Peter</sys_updated_by>
+                        <sys_updated_on>2016-06-23 06:38:16</sys_updated_on>
+                        <value>b60441b34fc4a680a75546501310c781</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 23-06-2016 16:38:16">c2d685374fc4a680a75546501310c7df</portal_section>
+                        <sys_created_by>Peter</sys_created_by>
+                        <sys_created_on>2016-06-23 06:38:16</sys_created_on>
+                        <sys_id>8ad685374fc4a680a75546501310c7df</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Peter</sys_updated_by>
+                        <sys_updated_on>2016-06-23 06:38:16</sys_updated_on>
+                        <value>3b558db34fc4a680a75546501310c7e8</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

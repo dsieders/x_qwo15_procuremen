@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>x_qwo15_procuremen_u_po_number</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Daniel</sys_created_by>
+        <sys_created_on>2018-05-25 05:20:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b267bedd4fdad30c3723eb4f0310c72b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_qwo15_procuremen_u_po_number</sys_name>
+        <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b267bedd4fdad30c3723eb4f0310c72b</sys_update_name>
+        <sys_updated_by>Daniel</sys_updated_by>
+        <sys_updated_on>2018-05-25 05:20:19</sys_updated_on>
+        <table>x_qwo15_procurement_request</table>
+        <ui_policy display_value="PO number Mandatory on Close">97d532554fdad30c3723eb4f0310c75c</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

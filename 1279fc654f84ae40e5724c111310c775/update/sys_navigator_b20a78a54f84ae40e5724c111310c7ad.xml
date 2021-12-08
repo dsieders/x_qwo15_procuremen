@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_navigator">
+    <sys_navigator action="INSERT_OR_UPDATE">
+        <class_name/>
+        <script><![CDATA[var url = '';
+var sysid = g_uri.get('sys_id');
+var isCompatible = sn_sm.SMTemplateCompatibility.getCompatibility();
+if (isCompatible == 'block') {
+	url =  g_uri.toString(); 
+}
+else {
+   g_uri.set('sysparm_sys_id', sysid);
+   g_uri.set('sysparm_record_target','x_qwo15_procurement_request_template');
+   g_uri.set('sysparm_title','Procurement Request Template');
+   g_uri.set('sysparm_app_name','procurement');
+   url =  g_uri.toString('$sm_templates.do');
+}
+url;]]></script>
+        <sys_class_name>sys_navigator</sys_class_name>
+        <sys_created_by>Peter</sys_created_by>
+        <sys_created_on>2016-06-16 05:56:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b20a78a54f84ae40e5724c111310c7ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_qwo15_procurement_request_template</sys_name>
+        <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+        <sys_update_name>sys_navigator_b20a78a54f84ae40e5724c111310c7ad</sys_update_name>
+        <sys_updated_by>Peter</sys_updated_by>
+        <sys_updated_on>2016-06-16 05:56:01</sys_updated_on>
+        <table>x_qwo15_procurement_request_template</table>
+    </sys_navigator>
+</record_update>

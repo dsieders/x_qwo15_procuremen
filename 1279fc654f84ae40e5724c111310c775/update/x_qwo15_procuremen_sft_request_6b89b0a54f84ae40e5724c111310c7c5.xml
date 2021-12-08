@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_qwo15_procuremen_sft_request">
+    <x_qwo15_procuremen_sft_request action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <automatic_condition/>
+        <automatic_roles/>
+        <automatic_script/>
+        <automatic_string/>
+        <business_rule/>
+        <change_client_script/>
+        <client_script/>
+        <comment>Procurement Request initial request state</comment>
+        <derived_from display_value="Initial State">2bdb345547232100158b949b6c9a7116</derived_from>
+        <end_text>1</end_text>
+        <ending_state/>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition/>
+        <manual_roles/>
+        <manual_script/>
+        <manual_string/>
+        <name>Initial State</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010165</number>
+        <override display_value="state">6f89b0a54f84ae40e5724c111310c7c5</override>
+        <read_only_fields/>
+        <roles/>
+        <start_text/>
+        <starting_state/>
+        <sys_class_name>x_qwo15_procuremen_sft_request</sys_class_name>
+        <sys_created_by>Peter</sys_created_by>
+        <sys_created_on>2016-06-16 05:53:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6b89b0a54f84ae40e5724c111310c7c5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Initial State</sys_name>
+        <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+        <sys_update_name>x_qwo15_procuremen_sft_request_6b89b0a54f84ae40e5724c111310c7c5</sys_update_name>
+        <sys_updated_by>DANIEL</sys_updated_by>
+        <sys_updated_on>2021-08-24 02:18:45</sys_updated_on>
+        <table>x_qwo15_procurement_request</table>
+        <translated_ending_state>Draft</translated_ending_state>
+        <translated_starting_state/>
+        <ui_action/>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </x_qwo15_procuremen_sft_request>
+</record_update>

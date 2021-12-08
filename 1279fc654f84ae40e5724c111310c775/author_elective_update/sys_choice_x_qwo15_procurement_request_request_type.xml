@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="request_type" table="x_qwo15_procurement_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>request_type</element>
+            <name>x_qwo15_procurement_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2018-05-23 05:27:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>fa859396db12d7c0f68191f38a9619ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>request_type</sys_name>
+            <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+            <sys_update_name>sys_choice_x_qwo15_procurement_request_request_type</sys_update_name>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2018-05-23 05:27:19</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General enquiry</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2018-05-23 05:27:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f1e5e0744f921f40e3be3d501310c706</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2018-05-23 05:40:09</sys_updated_on>
+            <value>gen_enq</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Preventative</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2018-05-23 05:27:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7de5e0744f921f40e3be3d501310c701</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2018-05-23 05:40:09</sys_updated_on>
+            <value>preventative</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Corrective</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2018-05-23 05:27:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f1e5e0744f921f40e3be3d501310c704</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2018-05-23 05:40:09</sys_updated_on>
+            <value>corrective</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PO modification</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2018-05-23 05:27:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>35e5e0744f921f40e3be3d501310c708</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2018-05-23 05:40:09</sys_updated_on>
+            <value>po_modification</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SAP workflow redirection</label>
+            <language>en</language>
+            <name>x_qwo15_procurement_request</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>Daniel</sys_created_by>
+            <sys_created_on>2018-05-23 05:27:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75e5e0744f921f40e3be3d501310c70a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Daniel</sys_updated_by>
+            <sys_updated_on>2018-05-23 05:40:09</sys_updated_on>
+            <value>wf_redirection</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

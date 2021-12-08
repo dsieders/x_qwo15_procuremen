@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>6df9f4a54f84ae40e5724c111310c7a3</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Peter Dennis Admin"&gt;fd45087d4f8b1600a75546501310c726&lt;/author&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;image/&gt;
+        &lt;kb_category/&gt;
+        &lt;kb_knowledge_base display_value="Procurement Knowledge"&gt;edf9f4a54f84ae40e5724c111310c7a2&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;number&gt;KB0010938&lt;/number&gt;
+        &lt;published&gt;2016-06-16&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Procurement Knowledge&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;Peter&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2016-06-16 05:55:40&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;6df9f4a54f84ae40e5724c111310c7a3&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;Peter&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2016-06-16 05:55:40&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;0&lt;/sys_view_count&gt;
+        &lt;text&gt;&lt;![CDATA[A knowledge example for Procurement Knowledge. In Knowlege base module you can modify this text or define more articles like these. The knowleddge pages can be article, blog, or wiki pages and they all are searchable.]]&gt;&lt;/text&gt;
+        &lt;topic/&gt;
+        &lt;u_assigned_to/&gt;
+        &lt;u_assignment_group/&gt;
+        &lt;u_it_system/&gt;
+        &lt;u_requestor/&gt;
+        &lt;u_template/&gt;
+        &lt;u_work_notes/&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2017-06-16&lt;/valid_to&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;draft&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=6df9f4a54f84ae40e5724c111310c7a3"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>Peter</sys_created_by>
+        <sys_created_on>2016-06-16 05:56:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d41a78a54f84ae40e5724c111310c7b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0010938</sys_name>
+        <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+        <sys_update_name>sys_metadata_link_d41a78a54f84ae40e5724c111310c7b7</sys_update_name>
+        <sys_updated_by>Peter</sys_updated_by>
+        <sys_updated_on>2016-06-16 05:56:07</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

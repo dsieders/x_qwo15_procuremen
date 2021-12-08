@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" audit="true" extends="sm_order" label="Procurement Request" max_length="40" name="x_qwo15_procurement_request" sizeclass="40736" text_index="true" type="collection">
+        <element label="Actual work time" max_length="40" name="x_qwo15_procuremen_actual_work_time" type="glide_time"/>
+        <element label="Closure Comments" max_length="4000" name="x_qwo15_procuremen_closure_comments" type="string"/>
+        <element choice="3" label="Estimated Work Time" max_length="50" name="x_qwo15_procuremen_estimated_work_time" type="string">
+            <choice>
+                <element inactive_on_update="false" label="A: 0 – 10 Minutes" sequence="0" value="A: 0 – 10 Minutes"/>
+                <element inactive_on_update="false" label="B: 11 – 30 Minutes" sequence="1" value="B: 11 – 30 Minutes"/>
+                <element inactive_on_update="false" label="C: 31 – 120 Minutes" sequence="2" value="C: 31 – 120 Minutes"/>
+                <element inactive_on_update="false" label="D: 2 – 8 Hours" sequence="3" value="D: 2 – 8 Hours"/>
+                <element inactive_on_update="false" label="E: 8 – 40 Hours" sequence="4" value="E: 8 – 40 Hours"/>
+                <element inactive_on_update="false" label="F: 40 Hours or More" sequence="5" value="F: 40 Hours or More"/>
+            </choice>
+        </element>
+        <element choice="1" label="Medium" max_length="50" name="x_qwo15_procuremen_medium" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Counter" sequence="0" value="Counter"/>
+                <element inactive_on_update="false" label="Email" sequence="1" value="Email"/>
+                <element inactive_on_update="false" label="Phone" sequence="2" value="Phone"/>
+            </choice>
+        </element>
+        <element attributes="readonly_clickthrough=true; ref_ac_columns_search=true,ref_auto_completer=AJAXTableCompleter,ref_ac_columns=user_name;u_preferred_name;last_name,ref_ac_display_value=false" label="Requested for" max_length="32" name="x_qwo15_procuremen_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Purchase Order number" max_length="40" name="x_qwo15_procuremen_u_po_number" type="string"/>
+    </element>
+</database>

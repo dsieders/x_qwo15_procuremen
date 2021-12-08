@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="">ebb5a43f4f44a680a75546501310c747</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>Peter</sys_created_by>
+        <sys_created_on>2016-06-23 04:13:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b7b5a43f4f44a680a75546501310c749</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sm_light_variable_set.</sys_name>
+        <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+        <sys_update_name>io_set_item_b7b5a43f4f44a680a75546501310c749</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-03-31 21:20:52</sys_updated_on>
+        <variable_set display_value="sm_light_variable_set">227c8e46d7210200bbc783e80e610387</variable_set>
+    </io_set_item>
+</record_update>

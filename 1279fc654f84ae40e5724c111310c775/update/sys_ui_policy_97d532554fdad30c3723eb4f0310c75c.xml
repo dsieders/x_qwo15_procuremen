@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_qwo15_procurement_request">request_type=po_modification^stateIN3,4,7^EQ<item display_value="PO modification" endquery="false" field="request_type" goto="false" newquery="false" operator="=" or="false" value="po_modification"/>
+            <item display_value="3,4,7" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="3,4,7"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>false</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>PO number Mandatory on Close</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>Daniel</sys_created_by>
+        <sys_created_on>2018-05-25 05:19:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>97d532554fdad30c3723eb4f0310c75c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PO number Mandatory on Close</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+        <sys_update_name>sys_ui_policy_97d532554fdad30c3723eb4f0310c75c</sys_update_name>
+        <sys_updated_by>Daniel</sys_updated_by>
+        <sys_updated_on>2018-05-25 05:19:56</sys_updated_on>
+        <table>x_qwo15_procurement_request</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_qwo15_procuremen_sft_task">
+    <x_qwo15_procuremen_sft_task action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <automatic_condition/>
+        <automatic_roles/>
+        <automatic_script/>
+        <automatic_string/>
+        <business_rule/>
+        <change_client_script/>
+        <client_script/>
+        <comment>Procurement Request initial task state</comment>
+        <derived_from display_value="Initial State">60e174e1df23210068c37a0d3df26303</derived_from>
+        <end_text>1</end_text>
+        <ending_state display_value="Draft">f379b0a54f84ae40e5724c111310c74a</ending_state>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition/>
+        <manual_roles/>
+        <manual_script/>
+        <manual_string/>
+        <name>Initial State</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010152</number>
+        <override display_value="state">b589b0a54f84ae40e5724c111310c78d</override>
+        <read_only_fields/>
+        <roles/>
+        <start_text/>
+        <starting_state/>
+        <sys_class_name>x_qwo15_procuremen_sft_task</sys_class_name>
+        <sys_created_by>Peter</sys_created_by>
+        <sys_created_on>2016-06-16 05:53:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b189b0a54f84ae40e5724c111310c78d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Initial State</sys_name>
+        <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+        <sys_update_name>x_qwo15_procuremen_sft_task_b189b0a54f84ae40e5724c111310c78d</sys_update_name>
+        <sys_updated_by>Peter</sys_updated_by>
+        <sys_updated_on>2016-06-20 05:40:18</sys_updated_on>
+        <table>x_qwo15_procurement_task</table>
+        <translated_ending_state/>
+        <translated_starting_state/>
+        <ui_action/>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </x_qwo15_procuremen_sft_task>
+</record_update>

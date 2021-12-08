@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_qwo15_procuremen_sft_task">
+    <x_qwo15_procuremen_sft_task action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <automatic_condition/>
+        <automatic_roles/>
+        <automatic_script><![CDATA[current.acknowledged_on = new GlideDateTime();
+if ((new sn_sm.SMConfiguration()).isEnabled(current, "part_requirement", false))
+	(new global.SMStockRooms()).findCreatePersonalStockroom(current.assigned_to);]]></automatic_script>
+        <automatic_string>!(new sn_sm.SMConfiguration()).isEnabled(current, "accept_reject", false)</automatic_string>
+        <business_rule display_value="Accept">5589b0a54f84ae40e5724c111310c789</business_rule>
+        <change_client_script/>
+        <client_script/>
+        <comment>Procurement Request State flow</comment>
+        <derived_from display_value="Accept">25feb353df312100dca6a5f59bf263e5</derived_from>
+        <end_text>17</end_text>
+        <ending_state display_value="Accepted">b379b0a54f84ae40e5724c111310c74c</ending_state>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition/>
+        <manual_roles/>
+        <manual_script/>
+        <manual_string/>
+        <name>Accept</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010149</number>
+        <override/>
+        <read_only_fields/>
+        <roles/>
+        <start_text>16</start_text>
+        <starting_state display_value="Assigned">7b79b0a54f84ae40e5724c111310c74b</starting_state>
+        <sys_class_name>x_qwo15_procuremen_sft_task</sys_class_name>
+        <sys_created_by>Peter</sys_created_by>
+        <sys_created_on>2016-06-16 05:53:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1589b0a54f84ae40e5724c111310c789</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Accept</sys_name>
+        <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+        <sys_update_name>x_qwo15_procuremen_sft_task_1589b0a54f84ae40e5724c111310c789</sys_update_name>
+        <sys_updated_by>Peter</sys_updated_by>
+        <sys_updated_on>2016-06-20 05:40:17</sys_updated_on>
+        <table>x_qwo15_procurement_task</table>
+        <translated_ending_state/>
+        <translated_starting_state/>
+        <ui_action/>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </x_qwo15_procuremen_sft_task>
+</record_update>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="7af9f4a54f84ae40e5724c111310c7ae" sys_domain="global" table="x_qwo15_procurement_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>faf9f4a54f84ae40e5724c111310c7ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_qwo15_procurement_request" name="x_qwo15_procurement_request" sys_domain="global" view="Default view">7af9f4a54f84ae40e5724c111310c7ae</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_qwo15_procurement_request" sys_domain="global" view="Default view">baf9f4a54f84ae40e5724c111310c7ac</sys_ui_section>
+            <sys_updated_by>Peter</sys_updated_by>
+            <sys_updated_on>2016-06-16 05:55:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>rxp.dp</sys_created_by>
+            <sys_created_on>2016-07-06 23:47:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e2f2b404fa0a680e5724c111310c79a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_qwo15_procurement_request" name="x_qwo15_procurement_request" sys_domain="global" view="Default view">7af9f4a54f84ae40e5724c111310c7ae</sys_ui_form>
+            <sys_ui_section caption="Description" display_value="Description" name="x_qwo15_procurement_request" sys_domain="global" view="Default view">6a2f2b404fa0a680e5724c111310c79a</sys_ui_section>
+            <sys_updated_by>rxp.as</sys_updated_by>
+            <sys_updated_on>2016-07-07 02:29:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03f9f4a54f84ae40e5724c111310c7d5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_qwo15_procurement_request" name="x_qwo15_procurement_request" sys_domain="global" view="Default view">7af9f4a54f84ae40e5724c111310c7ae</sys_ui_form>
+            <sys_ui_section caption="Scheduling" display_value="Scheduling" name="x_qwo15_procurement_request" sys_domain="global" view="Default view">47f9f4a54f84ae40e5724c111310c7d4</sys_ui_section>
+            <sys_updated_by>rxp.as</sys_updated_by>
+            <sys_updated_on>2016-07-07 02:29:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>rxp.dp</sys_created_by>
+            <sys_created_on>2016-07-06 23:50:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12df27804fa0a680e5724c111310c7c8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_qwo15_procurement_request" name="x_qwo15_procurement_request" sys_domain="global" view="Default view">7af9f4a54f84ae40e5724c111310c7ae</sys_ui_form>
+            <sys_ui_section caption="Work Notes" display_value="Work Notes" name="x_qwo15_procurement_request" sys_domain="global" view="Default view">42df2f404fa0a680e5724c111310c7d0</sys_ui_section>
+            <sys_updated_by>rxp.as</sys_updated_by>
+            <sys_updated_on>2016-07-07 02:29:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>rxp.dp</sys_created_by>
+            <sys_created_on>2016-07-07 00:15:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>918533444fa0a680e5724c111310c77f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_qwo15_procurement_request" name="x_qwo15_procurement_request" sys_domain="global" view="Default view">7af9f4a54f84ae40e5724c111310c7ae</sys_ui_form>
+            <sys_ui_section caption="Customer Communications" display_value="Customer Communications" name="x_qwo15_procurement_request" sys_domain="global" view="Default view">dd8533444fa0a680e5724c111310c77e</sys_ui_section>
+            <sys_updated_by>rxp.as</sys_updated_by>
+            <sys_updated_on>2016-07-07 02:29:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>rxp.dp</sys_created_by>
+            <sys_created_on>2016-07-06 23:53:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a6037804fa0a680e5724c111310c7cd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_qwo15_procurement_request" name="x_qwo15_procurement_request" sys_domain="global" view="Default view">7af9f4a54f84ae40e5724c111310c7ae</sys_ui_form>
+            <sys_ui_section caption="Closure Comments" display_value="Closure Comments" name="x_qwo15_procurement_request" sys_domain="global" view="Default view">966037804fa0a680e5724c111310c7cd</sys_ui_section>
+            <sys_updated_by>rxp.as</sys_updated_by>
+            <sys_updated_on>2016-07-07 02:29:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_qwo15_procurement_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Peter</sys_created_by>
+            <sys_created_on>2016-06-16 05:55:45</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7af9f4a54f84ae40e5724c111310c7ae</sys_id>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_name>x_qwo15_procurement_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+            <sys_update_name>sys_ui_form_sections_7af9f4a54f84ae40e5724c111310c7ae</sys_update_name>
+            <sys_updated_by>rxp.as</sys_updated_by>
+            <sys_updated_on>2016-07-07 02:29:16</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

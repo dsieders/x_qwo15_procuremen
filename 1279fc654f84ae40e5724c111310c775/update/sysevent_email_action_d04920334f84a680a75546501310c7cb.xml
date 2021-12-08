@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition><![CDATA[current.sys_class_name == "x_qwo15_procurement_request";]]></advanced_condition>
+        <affected_field_on_event/>
+        <category display_value="Procurement Request" name="Procurement Request">acffb3b5db420300408a36db7c9619f6</category>
+        <collection>x_qwo15_procurement_request</collection>
+        <condition table="x_qwo15_procurement_request">stateCHANGESTO3^assignment_group!=8599b0a54f84ae40e5724c111310c7f8^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+            <item display_table="sys_user_group" display_value="CoGC-Procurement Dispatchers" endquery="false" field="assignment_group" goto="false" newquery="false" operator="!=" or="false" value="8599b0a54f84ae40e5724c111310c7f8"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>multipart/mixed</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>pr.request.email.creation</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>true</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Requested for: ${x_qwo15_procuremen_requested_for}</p>
+<table border="0" width="700" cellspacing="3" cellpadding="6" align="center">
+<tbody style="color: black; font-family: Arial; font-size: 10.0pt;">
+<tr>
+<td style="font-size: 14pt; font-weight: bold;" colspan="2" width="50%">Your request has been fulfilled</td>
+<td colspan="2" align="right" width="50%"><img style="width: 180px;" src="http://www.goldcoast.qld.gov.au/enews/brand/cogc-logo-sml.jpg" alt="City of Gold Coast Logo" width="180" height="46" align="right" /></td>
+</tr>
+<tr>
+<td style="font-size: 11pt; border-bottom-color: black; border-bottom-width: 1.5px; border-bottom-style: solid; padding-bottom: 5px; padding-top: 10px; border-top-color: black; border-top-style: solid; border-top-width: 2px;" colspan="4" width="100%">Request complete.</td>
+</tr>
+<tr>
+<td style="background-color: #d8d8d8; font-weight: bold; border: 1.0pt solid #d8d8d8;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">ID</span></td>
+<td style="font-size: 10.0pt; border: 1.0pt solid #7f9db9;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">${number}</span></td>
+<td style="background-color: #d8d8d8; font-weight: bold; border: 1.0pt solid #d8d8d8;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Requested for</span></td>
+<td style="box-sizing: border-box; border: 1.0pt solid #7f9db9;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">${x_qwo15_procuremen_requested_for}</span></td>
+</tr>
+<tr>
+<td style="background-color: #d8d8d8; font-weight: bold; border: 1.0pt solid #d8d8d8;" colspan="4" width="100%"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Short Description</span></td>
+</tr>
+<tr>
+<td style="box-sizing: border-box; border: 1.0pt solid #7f9db9;" colspan="4"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">${short_description}</span></td>
+</tr>
+<tr>
+<td style="background-color: #d8d8d8; font-weight: bold; border: 1.0pt solid #d8d8d8;" colspan="4" width="100%"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Closure Comments</span></td>
+</tr>
+<tr>
+<td style="box-sizing: border-box; border: 1.0pt solid #7f9db9;" colspan="4">
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">${x_qwo15_procuremen_closure_comments}</span></p>
+</td>
+</tr>
+<tr>
+<td style="font-family: 'Arial'; color: #a5a19d;">Information privacy</td>
+</tr>
+<tr>
+<td style="font-size: 8pt; color: #a5a19d;" colspan="4">Council of the City of Gold Coast (Council) is collecting your personal information for Council to conduct its business and/or meet its statutory obligations. The information will be stored and may only be accessed by employees, Councillors and/or authorised service providers. Your personal information will not be disclosed unless you have given us permission or we are authorised or required by law.</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>(CoGC)Procurement Req Complete</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>caller,x_qwo15_procuremen_requested_for</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${number} has been completed</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>Peter</sys_created_by>
+        <sys_created_on>2016-06-23 04:28:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d04920334f84a680a75546501310c7cb</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>(CoGC)Procurement Req Complete</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Procurement" source="x_qwo15_procuremen">1279fc654f84ae40e5724c111310c775</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">1279fc654f84ae40e5724c111310c775</sys_scope>
+        <sys_update_name>sysevent_email_action_d04920334f84a680a75546501310c7cb</sys_update_name>
+        <sys_updated_by>DIHORI</sys_updated_by>
+        <sys_updated_on>2019-06-03 06:49:04</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
